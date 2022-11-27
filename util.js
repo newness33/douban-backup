@@ -11,6 +11,12 @@ const DB_PROPERTIES = {
   GENRE: '类型', // movie, game, drama
   ITEM_LINK: '条目链接', // common
   IMDB_LINK: 'IMDb 链接',
+  LOCATION: '制片国家/地区',
+  STATUS: '状态',
+  TYPE: '影视类型',
+  DESCRIPTION: '简介',
+  PUBLISH_DATE: '上映日期',
+
   // music
   RELEASE_DATE: '发行日期', // music and game
   MUSICIAN: '音乐家',
@@ -23,6 +29,11 @@ const DB_PROPERTIES = {
 
 const PropertyType = {
   POSTER: 'file',
+  STATUS: 'rich_text',
+  TYPE: 'rich_text',
+  PUBLISH_DATE: 'date',
+  LOCATION: 'rich_text',
+  DESCRIPTION: 'rich_text',
   TITLE: 'title',
   RATING: 'multi_select',
   RATING_DATE: 'date',
