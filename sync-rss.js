@@ -72,13 +72,13 @@ const dramaDBID = process.env.NOTION_DRAMA_DATABASE_ID;
         }
         let status;
         if (item.title.startsWith("想看")) {
-            status = "想看"
+            status = ["想看"]
         }
         if (item.title.startsWith("在看")) {
-            status = "在看"
+            status = ["在看"]
         }
         if (item.title.startsWith("看过")) {
-            status = "看过"
+            status = ["看过"]
         }
 
         const result = {
@@ -320,10 +320,10 @@ async function fetchItem(link, category) {
         itemData[DB_PROPERTIES.LOCATION] = location[0].nextSibling.textContent.trim()
         itemData[DB_PROPERTIES.PUBLISH_DATE] = dayjs(json_data['datePublished']).format('YYYY-MM-DD');
         if (json_data['@type'].indexOf("TV") > -1) {
-            itemData[DB_PROPERTIES.TYPE] = "电视剧"
+            itemData[DB_PROPERTIES.TYPE] = ["电视剧"]
         }
         if (json_data['@type'].indexOf("Movie") > -1) {
-            itemData[DB_PROPERTIES.TYPE] = "电影"
+            itemData[DB_PROPERTIES.TYPE] = ["电影"]
         }
         itemData[DB_PROPERTIES.DESCRIPTION] = dom.window.document.querySelector('meta[property="og:description"]').content
         const imdbInfo = [...dom.window.document.querySelectorAll('#info span.pl')].filter(i => i.textContent.startsWith('IMDb'));
