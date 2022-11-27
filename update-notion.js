@@ -26,7 +26,7 @@ const notion = new Client({
 
 // example: https://github.com/makenotion/notion-sdk-js/blob/main/examples/database-update-send-email/index.js
 
-const databaseId = process.env.NOTION_MOVIE_DATABASE_ID;
+const databaseId = "9a20354cd5974ee295e120044fc39686";
 // read csv file to csvData, and these are going to be filled in notion database
 let csvData = [];
 
