@@ -29,8 +29,8 @@ const DB_PROPERTIES = {
 
 const PropertyType = {
   POSTER: 'file',
-  STATUS: 'rich_text',
-  TYPE: 'rich_text',
+  STATUS: 'multi_select',
+  TYPE: 'multi_select',
   PUBLISH_DATE: 'date',
   LOCATION: 'rich_text',
   DESCRIPTION: 'rich_text',
