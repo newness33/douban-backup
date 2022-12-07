@@ -365,7 +365,7 @@ async function fetchItem(link, category) {
         if(dom.window.document.querySelectorAll('div[class="intro"] p')[0]){
             itemData[DB_PROPERTIES.BOOK_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[0].textContent.trim()}
         if(dom.window.document.querySelectorAll('div[class="intro"] p')[1]){
-            itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim(){
+            itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim()}
         info.forEach(i => {
             let text = i.textContent.trim();
             let nextText = i.nextSibling?.textContent.trim();
