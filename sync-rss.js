@@ -80,6 +80,15 @@ const dramaDBID = process.env.NOTION_DRAMA_DATABASE_ID;
         if (item.title.startsWith("看过")) {
             status = ["看过"]
         }
+        if (item.title.startsWith("想读")) {
+            status = ["想读"]
+        }
+        if (item.title.startsWith("最近在读")) {
+            status = ["在读"]
+        }
+        if (item.title.startsWith("读过")) {
+            status = ["读过"]
+        }
 
         const result = {
             id,
@@ -177,6 +186,7 @@ async function handleFeed(feed, category) {
             itemData[DB_PROPERTIES.RATING] = item.rating;
             itemData[DB_PROPERTIES.RATING_DATE] = dayjs(item.time).format('YYYY-MM-DD');
             itemData[DB_PROPERTIES.COMMENTS] = item.comment;
+            itemData[DB_PROPERTIES.STATUS] = item.status;
         } catch (error) {
             console.error(link, error);
         }
@@ -198,7 +208,7 @@ async function handleFeed(feed, category) {
             itemData[DB_PROPERTIES.RATING] = item.rating;
             itemData[DB_PROPERTIES.RATING_DATE] = dayjs(item.time).format('YYYY-MM-DD');
             itemData[DB_PROPERTIES.COMMENTS] = item.comment;
-            itemData[DB_PROPERTIES.STATUS] = item.status
+            itemData[DB_PROPERTIES.STATUS] = item.status;
         } catch (error) {
             console.error(link, error);
         }
@@ -352,6 +362,8 @@ async function fetchItem(link, category) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
         itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg');
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
+        itemData[DB_PROPERTIES.BOOK_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[0].textContent.trim()
+        itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim()
         info.forEach(i => {
             let text = i.textContent.trim();
             let nextText = i.nextSibling?.textContent.trim();
@@ -363,10 +375,14 @@ async function fetchItem(link, category) {
                     itemData[DB_PROPERTIES.WRITER] = i.parentElement.textContent.trim().replace('作者:', '').trim();
                 }
             } else if (text.startsWith('出版社')) {
-                itemData[DB_PROPERTIES.PUBLISHING_HOUSE] = nextText;
+                itemData[DB_PROPERTIES.PUBLISHING_HOUSE] = i.nextSibling.nextSibling.textContent.trim();
             } else if (text.startsWith('原作名')) {
-                itemData[DB_PROPERTIES.TITLE] += nextText;
-            } else if (text.startsWith('出版年')) {
+                itemData[DB_PROPERTIES.ORIGIN_NAME] = nextText;
+            }
+            else if (text.startsWith('译者')) {
+                itemData[DB_PROPERTIES.TRANSLATOR] = i.nextSibling.nextSibling.textContent.trim();
+            }
+            else if (text.startsWith('出版年')) {
                 if (/年|月|日/.test(nextText)) {
                     nextText = nextText.replace(/年|月|日/g, '-').slice(0, -1); // '2000年5月' special case
                 }
