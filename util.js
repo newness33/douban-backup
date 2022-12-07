@@ -12,9 +12,9 @@ const DB_PROPERTIES = {
   ITEM_LINK: '条目链接', // common
   IMDB_LINK: 'IMDb 链接',
   LOCATION: '制片国家/地区',
-  STATUS: '状态',
+  STATUS: '状态', // common
   TYPE: '影视类型',
-  DESCRIPTION: '简介',
+  DESCRIPTION: '简介', // common
   PUBLISH_DATE: '上映日期',
 
   // music
@@ -25,6 +25,10 @@ const DB_PROPERTIES = {
   PUBLISHING_HOUSE: '出版社',
   WRITER: '作者',
   ISBN: 'ISBN',
+  BOOK_DESC:'内容简介',
+  ORIGIN_NAME:'原作名',
+  TRANSLATOR:'译者',
+  AUTHOR_DESC:'作者简介'
 };
 
 const PropertyType = {
@@ -50,6 +54,11 @@ const PropertyType = {
   PUBLISHING_HOUSE: 'rich_text',
   WRITER: 'rich_text',
   ISBN: 'number',
+  ORIGIN_NAME:'rich_text',
+  TRANSLATOR:'rich_text',
+  AUTHOR_DESC:'rich_text',
+  BOOK_DESC:'rich_text',
+
 };
 
 function sleep(ms) {
