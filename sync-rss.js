@@ -362,8 +362,10 @@ async function fetchItem(link, category) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
         itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg');
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
-        itemData[DB_PROPERTIES.BOOK_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[0].textContent.trim()
-        itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim()
+        if(dom.window.document.querySelectorAll('div[class="intro"] p')[0]){
+            itemData[DB_PROPERTIES.BOOK_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[0].textContent.trim()}
+        if(dom.window.document.querySelectorAll('div[class="intro"] p')[1]){
+            itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim(){
         info.forEach(i => {
             let text = i.textContent.trim();
             let nextText = i.nextSibling?.textContent.trim();
