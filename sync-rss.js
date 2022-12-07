@@ -362,10 +362,29 @@ async function fetchItem(link, category) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
         itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg');
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
-        if(dom.window.document.querySelectorAll('div[class="intro"] p')[0]){
-            itemData[DB_PROPERTIES.BOOK_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[0].textContent.trim()}
-        if(dom.window.document.querySelectorAll('div[class="intro"] p')[1]){
-            itemData[DB_PROPERTIES.AUTHOR_DESC]=dom.window.document.querySelectorAll('div[class="intro"] p')[1].textContent.trim()}
+        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent.trim().startsWith("内容简介")) {
+
+            let content_desc='';
+            let pages=[dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.querySelectorAll('p')][0]
+            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden").length>0){
+                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
+            }
+            for (let page of pages) {
+                content_desc+=page.textContent+'\n';
+            }
+            itemData[DB_PROPERTIES.BOOK_DESC] = content_desc
+        }
+        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent.trim().startsWith("作者简介")) {
+            let book_desc='';
+            let pages=[dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.querySelectorAll('p')][0]
+            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden").length>0){
+                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
+            }
+            for (let page of pages) {
+                book_desc+=page.textContent+'\n';
+            }
+            itemData[DB_PROPERTIES.BOOK_DESC] = book_desc
+            }
         info.forEach(i => {
             let text = i.textContent.trim();
             let nextText = i.nextSibling?.textContent.trim();
@@ -380,11 +399,9 @@ async function fetchItem(link, category) {
                 itemData[DB_PROPERTIES.PUBLISHING_HOUSE] = i.nextSibling.nextSibling.textContent.trim();
             } else if (text.startsWith('原作名')) {
                 itemData[DB_PROPERTIES.ORIGIN_NAME] = nextText;
-            }
-            else if (text.startsWith('译者')) {
+            } else if (text.startsWith('译者')) {
                 itemData[DB_PROPERTIES.TRANSLATOR] = i.nextSibling.nextSibling.textContent.trim();
-            }
-            else if (text.startsWith('出版年')) {
+            } else if (text.startsWith('出版年')) {
                 if (/年|月|日/.test(nextText)) {
                     nextText = nextText.replace(/年|月|日/g, '-').slice(0, -1); // '2000年5月' special case
                 }
@@ -497,6 +514,7 @@ function getPropertyValye(value, type, key) {
 
     return res;
 }
+
 async function addToNotion(itemData, category) {
     console.log('Going to insert ', itemData[DB_PROPERTIES.RATING_DATE], itemData[DB_PROPERTIES.TITLE]);
     try {
