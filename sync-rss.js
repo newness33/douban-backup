@@ -377,13 +377,13 @@ async function fetchItem(link, category) {
         if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent.trim().startsWith("作者简介")) {
             let book_desc='';
             let pages=[dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.querySelectorAll('p')][0]
-            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden").length>0){
-                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
+            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden").length>0){
+                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
             }
             for (let page of pages) {
                 book_desc+=page.textContent+'\n';
             }
-            itemData[DB_PROPERTIES.BOOK_DESC] = book_desc
+            itemData[DB_PROPERTIES.AUTHOR_DESC] = book_desc
             }
         info.forEach(i => {
             let text = i.textContent.trim();
