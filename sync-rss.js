@@ -315,7 +315,7 @@ async function fetchItem(link, category) {
     if (category === CATEGORY.movie) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#content h1 [property="v:itemreviewed"]').textContent.trim();
         itemData[DB_PROPERTIES.YEAR] = dom.window.document.querySelector('#content h1 .year').textContent.slice(1, -1);
-        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg');
+        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s_ratio_poster/","/l/");
         itemData[DB_PROPERTIES.DIRECTORS] = dom.window.document.querySelector('#info .attrs').textContent;
         itemData[DB_PROPERTIES.ACTORS] = [...dom.window.document.querySelectorAll('#info .actor .attrs a')].slice(0, 5).map(i => i.textContent).join(' / ');
         itemData[DB_PROPERTIES.GENRE] = [...dom.window.document.querySelectorAll('#info [property="v:genre"]')].map(i => i.textContent); // array
@@ -360,7 +360,7 @@ async function fetchItem(link, category) {
         // book item page
     } else if (category === CATEGORY.book) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
-        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg');
+        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s/","/l/");
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
         if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent.trim().startsWith("内容简介")) {
 
