@@ -310,12 +310,48 @@ async function fetchItem(link, category) {
     const itemData = {};
     const response = await got(link);
     const dom = new JSDOM(response.body);
+    const url = require('url');
+
+// 定义目标URL
+    const targetURL = link;
+    // 解析URL
+    // 使用正则表达式提取ID和类型（适配不同的URL格式）
+    const gameRegex = /\/game\/(\d+)\//;
+    const bookRegex = /\/subject\/(\d+)\//;
+    const movieRegex = /\/subject\/(\d+)\//;
+    const parsedUrl = url.parse(targetURL);
+
+    // 获取路径部分
+    const path = parsedUrl.pathname;
+
+    // 使用正则表达式匹配类型和ID
+    let type = "";
+    let id = "";
+
+    if (path.match(gameRegex)) {
+        type = "game";
+        id = path.match(gameRegex)[1];
+    } else if (path.match(bookRegex)) {
+        type = "book";
+        id = path.match(bookRegex)[1];
+    } else if (path.match(movieRegex)) {
+        type = "movie";
+        id = path.match(movieRegex)[1];
+    } else {
+        console.error('无法从URL中提取ID或类型。URL:', targetURL);
+        return;
+    }
+
+    console.log('URL:', targetURL);
+    console.log('类型:', type);
+    console.log('ID:', id);
 
     // movie item page
     if (category === CATEGORY.movie) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#content h1 [property="v:itemreviewed"]').textContent.trim();
         itemData[DB_PROPERTIES.YEAR] = dom.window.document.querySelector('#content h1 .year').textContent.slice(1, -1);
-        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s_ratio_poster/","/l/");
+        // itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s_ratio_poster/", "/l/");
+        itemData[DB_PROPERTIES.POSTER] = `https://dou.img.lithub.cc/${category}/${id}.jpg`;
         itemData[DB_PROPERTIES.DIRECTORS] = dom.window.document.querySelector('#info .attrs').textContent;
         itemData[DB_PROPERTIES.ACTORS] = [...dom.window.document.querySelectorAll('#info .actor .attrs a')].slice(0, 5).map(i => i.textContent).join(' / ');
         itemData[DB_PROPERTIES.GENRE] = [...dom.window.document.querySelectorAll('#info [property="v:genre"]')].map(i => i.textContent); // array
@@ -360,31 +396,32 @@ async function fetchItem(link, category) {
         // book item page
     } else if (category === CATEGORY.book) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
-        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s/","/l/");
+        // itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s/", "/l/");
+        itemData[DB_PROPERTIES.POSTER] = `https://dou.img.lithub.cc/${category}/${id}.jpg`;
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
-        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent.trim().startsWith("内容简介")) {
+        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent && dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent.trim().startsWith("内容简介")) {
 
-            let content_desc='';
-            let pages=[dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.querySelectorAll('p')][0]
-            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden").length>0){
-                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
+            let content_desc = '';
+            let pages = [dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.querySelectorAll('p')][0]
+            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden").length > 0) {
+                pages = dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
             }
             for (let page of pages) {
-                content_desc+=page.textContent+'\n';
+                content_desc += page.textContent + '\n';
             }
             itemData[DB_PROPERTIES.BOOK_DESC] = content_desc
         }
-        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent&&dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent.trim().startsWith("作者简介")) {
-            let book_desc='';
-            let pages=[dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.querySelectorAll('p')][0]
-            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden").length>0){
-                pages=dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
+        if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent && dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].textContent.trim().startsWith("作者简介")) {
+            let book_desc = '';
+            let pages = [dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.querySelectorAll('p')][0]
+            if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden").length > 0) {
+                pages = dom.window.document.querySelectorAll('div[class="related_info"] h2')[1].nextElementSibling.getElementsByClassName("all hidden")[0].getElementsByTagName("p")
             }
             for (let page of pages) {
-                book_desc+=page.textContent+'\n';
+                book_desc += page.textContent + '\n';
             }
             itemData[DB_PROPERTIES.AUTHOR_DESC] = book_desc
-            }
+        }
         info.forEach(i => {
             let text = i.textContent.trim();
             let nextText = i.nextSibling?.textContent.trim();
@@ -414,7 +451,8 @@ async function fetchItem(link, category) {
         // game item page
     } else if (category === CATEGORY.game) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper #content h1').textContent.trim();
-        itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('.item-subject-info .pic img')?.src.replace(/\.webp$/, '.jpg');
+        // itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('.item-subject-info .pic img')?.src.replace(/\.webp$/, '.jpg');
+        itemData[DB_PROPERTIES.POSTER] = `https://dou.img.lithub.cc/${category}/${id}.jpg`;
         const gameInfo = dom.window.document.querySelector('#content .game-attr');
         const dts = [...gameInfo.querySelectorAll('dt')].filter(i => i.textContent.startsWith('类型') || i.textContent.startsWith('发行日期'));
         if (dts.length) {
