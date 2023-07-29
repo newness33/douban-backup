@@ -19,7 +19,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12101,
+				"count": 12102,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.3
@@ -180,7 +180,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12520,
+				"count": 12521,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -266,7 +266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 777805,
+				"count": 777814,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -360,7 +360,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 733703,
+				"count": 733718,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -545,7 +545,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 42480,
+				"count": 42482,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -630,7 +630,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 50849,
+				"count": 50850,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -806,7 +806,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 141375,
+				"count": 141379,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -898,7 +898,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 786113,
+				"count": 786137,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -921,7 +921,9 @@
 			],
 			"other_versions_count": 28,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "余华 / 2012 / 作家出版社",
 			"book_subtitle": "",
 			"id": "4913064",
@@ -965,7 +967,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -988,7 +990,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23707,
+				"count": 23708,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -1081,7 +1083,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 269476,
+				"count": 269480,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1173,7 +1175,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23132,
+				"count": 23133,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -1350,7 +1352,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 138126,
+				"count": 138131,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1442,7 +1444,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 502103,
+				"count": 502108,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -1709,7 +1711,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139146,
+				"count": 139149,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
