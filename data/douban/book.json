@@ -266,7 +266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 779227,
+				"count": 779228,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -360,7 +360,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 735512,
+				"count": 735520,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -545,7 +545,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 42553,
+				"count": 42555,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -630,7 +630,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 51172,
+				"count": 51173,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -898,7 +898,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 789862,
+				"count": 789877,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1083,7 +1083,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 270644,
+				"count": 270647,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1106,7 +1106,9 @@
 			],
 			"other_versions_count": 127,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "[英] 乔治·奥威尔 / 2010 / 北京十月文艺出版社",
 			"book_subtitle": "",
 			"id": "4820710",
@@ -1150,7 +1152,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -1350,7 +1352,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 138879,
+				"count": 138881,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1442,7 +1444,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 502443,
+				"count": 502445,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -1709,7 +1711,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139331,
+				"count": 139332,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
