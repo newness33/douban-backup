@@ -266,7 +266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 780065,
+				"count": 780073,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -360,7 +360,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 736590,
+				"count": 736596,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -630,7 +630,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 51355,
+				"count": 51356,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -806,7 +806,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 142483,
+				"count": 142485,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -898,7 +898,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 792155,
+				"count": 792169,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1083,7 +1083,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 271334,
+				"count": 271336,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1262,7 +1262,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 29148,
+				"count": 29149,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -1352,7 +1352,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139286,
+				"count": 139289,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1444,7 +1444,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 502646,
+				"count": 502647,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -1619,7 +1619,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 31475,
+				"count": 31476,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -1642,7 +1642,9 @@
 			],
 			"other_versions_count": 39,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "[英] 阿加莎·克里斯蒂 / 2016 / 新星出版社",
 			"book_subtitle": "",
 			"id": "26840298",
@@ -1686,7 +1688,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -1709,7 +1711,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139445,
+				"count": 139446,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
