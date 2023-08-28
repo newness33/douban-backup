@@ -19,7 +19,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12518,
+				"count": 12520,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.3
@@ -266,7 +266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 780048,
+				"count": 780065,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -360,7 +360,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 736579,
+				"count": 736590,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -452,7 +452,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 5522,
+				"count": 5524,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -545,7 +545,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 42605,
+				"count": 42606,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -630,7 +630,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 51350,
+				"count": 51355,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -806,7 +806,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 142479,
+				"count": 142483,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -898,7 +898,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 792121,
+				"count": 792155,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -990,7 +990,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23814,
+				"count": 23815,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -1083,7 +1083,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 271324,
+				"count": 271334,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1175,7 +1175,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23229,
+				"count": 23231,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -1352,7 +1352,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139283,
+				"count": 139286,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1444,7 +1444,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 502644,
+				"count": 502646,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -1619,7 +1619,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 31474,
+				"count": 31475,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -1642,9 +1642,7 @@
 			],
 			"other_versions_count": 39,
 			"is_show": false,
-			"vendor_icons": [
-				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
-			],
+			"vendor_icons": [],
 			"card_subtitle": "[英] 阿加莎·克里斯蒂 / 2016 / 新星出版社",
 			"book_subtitle": "",
 			"id": "26840298",
@@ -1688,7 +1686,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": true
+			"has_ebook": false
 		}
 	},
 	{
@@ -1711,7 +1709,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139442,
+				"count": 139445,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
