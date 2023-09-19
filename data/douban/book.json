@@ -19,7 +19,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12785,
+				"count": 12790,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.3
@@ -88,6 +88,166 @@
 	},
 	{
 		"comment": "",
+		"rating": null,
+		"sharing_text": "https://book.douban.com/subject/10582496/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10582496/interest/3223920560",
+		"tags": [],
+		"charts": [],
+		"platforms": [],
+		"vote_count": 0,
+		"create_time": "2022-02-05 18:25:26",
+		"status": "done",
+		"id": 3223920560,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 582,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.8
+			},
+			"controversy_reason": "",
+			"pubdate": [
+				"2012-4-1"
+			],
+			"pic": {
+				"large": "https://img1.doubanio.com/view/subject/l/public/s26553760.jpg",
+				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s26553760.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
+			},
+			"honor_infos": [],
+			"other_versions_count": 8,
+			"is_show": false,
+			"vendor_icons": [],
+			"card_subtitle": "艾利•高德拉特(Eliyahu Goldratt) 杰夫•科克斯(Jeff Cox) / 2012 / 电子工业出版社",
+			"book_subtitle": "",
+			"id": "10582496",
+			"author": [
+				"艾利•高德拉特(Eliyahu Goldratt)",
+				"杰夫•科克斯(Jeff Cox)"
+			],
+			"is_released": true,
+			"vendor_original_price": "",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "a4a591",
+				"_base_color": [
+					0.18055555555555572,
+					0.12244897959183673,
+					0.7686274509803922
+				],
+				"secondary_color": "f9f9f4",
+				"_avg_color": [
+					0.2070707070707071,
+					0.2037037037037037,
+					0.6352941176470588
+				],
+				"primary_color_dark": "7e7f6f"
+			},
+			"type": "book",
+			"cover_url": "https://dou.img.lithub.cc/book/10582496.jpg",
+			"min_sale_price": null,
+			"press": [
+				"电子工业出版社"
+			],
+			"pages": [
+				"413"
+			],
+			"sharing_url": "https://book.douban.com/subject/10582496/",
+			"url": "https://book.douban.com/subject/10582496/",
+			"title": "目标",
+			"uri": "douban://douban.com/book/10582496",
+			"subtype": "book",
+			"intro": "身为物理学家与企业管理大师的高德拉特博士，将物理学法则及逻辑推理的思维方法应用于企业管理，独创出可解决企业诸多问题的“制约法”，并以此写下了一系列企管小说，现已风靡全球。《目标（第3版）（白金版）》以一家工厂为背景，以苏格拉底式的问题为引线，伴随着书中受过专业技术及管理训练的厂长，一起经历坠入困境、从谷底爬起、化解压力、挑战和推翻被奉为圭臬却十分有害的管理概念的心路历程，找出行动与结果的因果关系，从而获得一种适用各种企业的、简单到接近常识的解决复杂管理问题的方法。",
+			"buy_more_uri": "",
+			"null_rating_reason": "",
+			"article_intros": [],
+			"vendor_sale_price": "",
+			"has_ebook": false
+		}
+	},
+	{
+		"comment": "",
+		"rating": null,
+		"sharing_text": "https://book.douban.com/subject/30230525/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30230525/interest/3190450098",
+		"tags": [],
+		"charts": [],
+		"platforms": [],
+		"vote_count": 0,
+		"create_time": "2022-01-14 01:18:18",
+		"status": "done",
+		"id": 3190450098,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 12720,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.9
+			},
+			"controversy_reason": "",
+			"pubdate": [
+				"2018-6-1"
+			],
+			"pic": {
+				"large": "https://img1.doubanio.com/view/subject/l/public/s29775868.jpg",
+				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s29775868.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
+			},
+			"honor_infos": [],
+			"other_versions_count": 6,
+			"is_show": false,
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/68f74e04bccf438edfef28e385a0430e25f482eb/pics/vendors/logo_toutiao.jpg",
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
+			],
+			"card_subtitle": "岩井俊二 / 2018 / 南海出版公司",
+			"book_subtitle": "",
+			"id": "30230525",
+			"author": [
+				"岩井俊二"
+			],
+			"is_released": true,
+			"vendor_original_price": "",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "999fa5",
+				"_base_color": [
+					0.5833333333333334,
+					0.07659574468085104,
+					0.9215686274509803
+				],
+				"secondary_color": "f4f7f9",
+				"_avg_color": [
+					0.574074074074074,
+					0.11999999999999995,
+					0.8823529411764706
+				],
+				"primary_color_dark": "757a7f"
+			},
+			"type": "book",
+			"cover_url": "https://dou.img.lithub.cc/book/30230525.jpg",
+			"min_sale_price": null,
+			"press": [
+				"南海出版公司"
+			],
+			"pages": [
+				"184"
+			],
+			"sharing_url": "https://book.douban.com/subject/30230525/",
+			"url": "https://book.douban.com/subject/30230525/",
+			"title": "情书",
+			"uri": "douban://douban.com/book/30230525",
+			"subtype": "book",
+			"intro": "有一个可以想念的人，就是幸福\n岩井俊二经典电影《情书》原著小说，挚爱珍藏版\n————————————————————————————————\n《情书》是作家岩井俊二的长篇小说代表作，也是经典电影《情书》原著。两个同名同姓的藤井树，两张穿越时空却惊人相似的少女面孔，牵出一段珍藏在岁月深处的初恋。即使经历岁月的洗礼，真挚的感情也不会磨灭，生命是短暂的，而爱是永恒的 。\n“你好吗？我很好。”畅销十余年，《情书》挚爱珍藏版温暖上市，由知名设计师设计全新形象，陪伴我们回到纯真岁月。\n————————————————————————————————\n虽然经历了岁月的洗礼，但真挚的感情没有磨灭，生命是短暂的，而爱情是永恒的。这是我想在《情书》中表达的东西。——岩井俊二",
+			"buy_more_uri": "",
+			"null_rating_reason": "",
+			"article_intros": [],
+			"vendor_sale_price": "",
+			"has_ebook": true
+		}
+	},
+	{
+		"comment": "",
 		"rating": {
 			"count": 1,
 			"max": 5,
@@ -106,7 +266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 781342,
+				"count": 781349,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -132,7 +292,8 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
 				"https://img2.doubanio.com/f/frodo/68f74e04bccf438edfef28e385a0430e25f482eb/pics/vendors/logo_toutiao.jpg",
-				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[美] 卡勒德·胡赛尼 / 2006 / 上海人民出版社",
 			"book_subtitle": "",
@@ -200,7 +361,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 738288,
+				"count": 738298,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -317,7 +478,8 @@
 			"other_versions_count": 8,
 			"is_show": false,
 			"vendor_icons": [
-				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[日] 伊坂幸太郎 / 2017 / 新星出版社",
 			"book_subtitle": "",
@@ -385,7 +547,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 42691,
+				"count": 42693,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -472,7 +634,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 51649,
+				"count": 51651,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -547,6 +709,89 @@
 		}
 	},
 	{
+		"comment": "为书名而买 评分给书名吧",
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 3,
+			"value": 3
+		},
+		"sharing_text": "我的评分：★★★ 为书名而买 评分给书名吧 https://book.douban.com/subject/25790100/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25790100/interest/1718193985",
+		"tags": [],
+		"charts": [],
+		"platforms": [],
+		"vote_count": 0,
+		"create_time": "2019-03-16 16:55:25",
+		"status": "done",
+		"id": 1718193985,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 66,
+				"max": 10,
+				"star_count": 3,
+				"value": 6.1
+			},
+			"controversy_reason": "",
+			"pubdate": [
+				"2013-11-1"
+			],
+			"pic": {
+				"large": "https://img1.doubanio.com/view/subject/l/public/s27176209.jpg",
+				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s27176209.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
+			},
+			"honor_infos": [],
+			"other_versions_count": 0,
+			"is_show": false,
+			"vendor_icons": [],
+			"card_subtitle": "【韩】韩京姬 / 2013 / 长江文艺出版社",
+			"book_subtitle": "你要相信，你比想象中更强大！",
+			"id": "25790100",
+			"author": [
+				"【韩】韩京姬"
+			],
+			"is_released": true,
+			"vendor_original_price": "",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "a5a499",
+				"_base_color": [
+					0.15625000000000003,
+					0.07692307692307693,
+					0.8156862745098039
+				],
+				"secondary_color": "f9f9f4",
+				"_avg_color": [
+					0.3333333333333333,
+					0.029556650246305317,
+					0.796078431372549
+				],
+				"primary_color_dark": "7f7e75"
+			},
+			"type": "book",
+			"cover_url": "https://dou.img.lithub.cc/book/25790100.jpg",
+			"min_sale_price": null,
+			"press": [
+				"长江文艺出版社"
+			],
+			"pages": [
+				"224"
+			],
+			"sharing_url": "https://book.douban.com/subject/25790100/",
+			"url": "https://book.douban.com/subject/25790100/",
+			"title": "从来没有太晚的开始",
+			"uri": "douban://douban.com/book/25790100",
+			"subtype": "book",
+			"intro": "有什么比稳定更重要？当然是梦想！人生从来不会嫌太年轻或太老，一切都刚刚好。36岁，韩京姬辞掉公务员职位，转而投身清洁器制造行业。曾经，除了丈夫没有一个人看好她。在融资的路上也不停碰壁。不得已，韩京姬抵押三处房产创业，一旦失败，就将血本无归。斗网络差评、拍电视宣传片、产品征服美国转战中国，创业无小事，韩京姬用自己柔弱的身躯优雅诠释人生信念——活着就要不妥协。这不是华丽成果的展示，这只是真实的追梦人生。",
+			"buy_more_uri": "",
+			"null_rating_reason": "",
+			"article_intros": [],
+			"vendor_sale_price": "",
+			"has_ebook": false
+		}
+	},
+	{
 		"comment": "",
 		"rating": {
 			"count": 1,
@@ -566,7 +811,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 143203,
+				"count": 143211,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -590,7 +835,8 @@
 			"other_versions_count": 39,
 			"is_show": false,
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png"
+				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[英] 阿加莎・克里斯蒂 / 2008 / 人民文学出版社",
 			"book_subtitle": "",
@@ -658,7 +904,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 795905,
+				"count": 795936,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -682,7 +928,8 @@
 			"other_versions_count": 28,
 			"is_show": false,
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png"
+				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "余华 / 2012 / 作家出版社",
 			"book_subtitle": "",
@@ -750,7 +997,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23880,
+				"count": 23883,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -775,7 +1022,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
-				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[挪威] 尤·奈斯博 / 2016 / 湖南文艺出版社",
 			"book_subtitle": "",
@@ -843,7 +1091,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 272530,
+				"count": 272537,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -866,7 +1114,9 @@
 			],
 			"other_versions_count": 127,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "[英] 乔治·奥威尔 / 2010 / 北京十月文艺出版社",
 			"book_subtitle": "",
 			"id": "4820710",
@@ -910,7 +1160,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -933,7 +1183,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 23304,
+				"count": 23305,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -1020,7 +1270,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 29287,
+				"count": 29288,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -1110,7 +1360,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139965,
+				"count": 139972,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1134,7 +1384,8 @@
 			"other_versions_count": 35,
 			"is_show": false,
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png"
+				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[美] 哈珀·李 / 2012 / 译林出版社",
 			"book_subtitle": "",
@@ -1202,7 +1453,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 502968,
+				"count": 502970,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -1308,7 +1559,9 @@
 			"honor_infos": [],
 			"other_versions_count": 28,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "余华 / 2004 / 上海文艺出版社",
 			"book_subtitle": "",
 			"id": "1061118",
@@ -1348,276 +1601,11 @@
 			"uri": "douban://douban.com/book/1061118",
 			"subtype": "book",
 			"intro": "地主少爷富贵嗜赌成性，终于赌光了家业一贫如洗，穷困之中的富贵因为母亲生病前去求医，没想到半路上被国民党部队抓了壮丁，后被解放军所俘虏，回到家乡他才知道母亲已经去世，妻子家珍含辛茹苦带大了一双儿女，但女儿不幸变成了聋哑人，儿子机灵活泼……\n然而，真正的悲剧从此才开始渐次上演，每读一页，都让我们止不住泪湿双眼，因为生命里难得的温情将被一次次死亡撕扯得粉碎，只剩得老了的富贵伴随着一头老牛在阳光下回忆。",
-			"buy_more_uri": "",
-			"null_rating_reason": "",
-			"article_intros": [],
-			"vendor_sale_price": "",
-			"has_ebook": false
-		}
-	},
-	{
-		"comment": "",
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 5,
-			"value": 5
-		},
-		"sharing_text": "我的评分：★★★★★ https://book.douban.com/subject/6781808/ 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6781808/interest/1552761287",
-		"tags": [],
-		"charts": [],
-		"platforms": [],
-		"vote_count": 0,
-		"create_time": "2018-12-04 00:35:44",
-		"status": "done",
-		"id": 1552761287,
-		"is_private": false,
-		"subject": {
-			"rating": {
-				"count": 139965,
-				"max": 10,
-				"star_count": 4.5,
-				"value": 9.2
-			},
-			"controversy_reason": "",
-			"pubdate": [
-				"2012-9"
-			],
-			"pic": {
-				"large": "https://img2.doubanio.com/view/subject/l/public/s23128183.jpg",
-				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s23128183.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
-			},
-			"honor_infos": [
-				{
-					"kind": "book",
-					"uri": "douban://douban.com/subject_collection/book_top250",
-					"rank": 18,
-					"title": "豆瓣图书Top250"
-				}
-			],
-			"other_versions_count": 35,
-			"is_show": false,
-			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png"
-			],
-			"card_subtitle": "[美] 哈珀·李 / 2012 / 译林出版社",
-			"book_subtitle": "",
-			"id": "6781808",
-			"author": [
-				"[美] 哈珀·李"
-			],
-			"is_released": true,
-			"vendor_original_price": "",
-			"color_scheme": {
-				"is_dark": true,
-				"primary_color_light": "a5652b",
-				"_base_color": [
-					0.07954545454545453,
-					0.7364016736401674,
-					0.9372549019607843
-				],
-				"secondary_color": "f9f7f4",
-				"_avg_color": [
-					0.07812499999999999,
-					0.5614035087719298,
-					0.8941176470588236
-				],
-				"primary_color_dark": "7f4e21"
-			},
-			"type": "book",
-			"cover_url": "https://dou.img.lithub.cc/book/6781808.jpg",
-			"min_sale_price": null,
-			"press": [
-				"译林出版社"
-			],
-			"pages": [
-				"346"
-			],
-			"sharing_url": "https://book.douban.com/subject/6781808/",
-			"url": "https://book.douban.com/subject/6781808/",
-			"title": "杀死一只知更鸟",
-			"uri": "douban://douban.com/book/6781808",
-			"subtype": "book",
-			"intro": "成长总是个让人烦恼的命题。成长有时会很缓慢，如小溪般唱着叮咚的歌曲趟过，有时却如此突如其来，如暴雨般劈头盖脸……三个孩子因为小镇上的几桩冤案经历了猝不及防的成长——痛苦与迷惑，悲伤与愤怒，也有温情与感动。这是爱与真知的成长经典。\n《杀死一只知更鸟》获1961年普利策奖。\n美国图书馆借阅率最高的书，英国青少年最喜爱的小说之一。\n美国中学推荐课外读物。\n由小说改编的电影获第25届奥斯卡三项大奖。\n美国电影协会评选的“100名银幕英雄与恶人”中，派克主演的芬奇律师名列英雄第一位。\n作为史上最受喜爱的小说之一，《杀死一只知更鸟》已获得显赫声誉。它赢得过普利策奖，被翻译成四十多种语言，在世界范围内售出超过三千万册，并曾被拍成，备受欢迎的电影。\n——哈珀•柯林斯出版集团\n斯塔尔六月对北卡罗来纳州律师协会发表演说时，自比为《杀死一只知更鸟》中勇敢的南方白人律师阿蒂克斯•芬奇。斯塔尔凭着他的道德优越感，不把规则、秩序和正直放在眼里，这样一个人居然自比为芬奇，实在令我和比尔难以忍受。\n——希拉里•克林顿\n年轻时看过《梅岗城故事》（即《杀死一只知更鸟》），对片中法律人为弱势者争取权益奋斗，为恶法非法或恶法亦法辩论的故事感到澎湃不已，更加确定要成为法律人的心愿。\n——许宗力（台大法学院院长）",
 			"buy_more_uri": "",
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
 			"has_ebook": true
-		}
-	},
-	{
-		"comment": "",
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 5,
-			"value": 5
-		},
-		"sharing_text": "我的评分：★★★★★ https://book.douban.com/subject/3259440/ 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3259440/interest/1552759602",
-		"tags": [],
-		"charts": [],
-		"platforms": [],
-		"vote_count": 0,
-		"create_time": "2018-12-04 00:34:43",
-		"status": "done",
-		"id": 1552759602,
-		"is_private": false,
-		"subject": {
-			"rating": {
-				"count": 502968,
-				"max": 10,
-				"star_count": 4.5,
-				"value": 9.1
-			},
-			"controversy_reason": "",
-			"pubdate": [
-				"2008-9"
-			],
-			"pic": {
-				"large": "https://img2.doubanio.com/view/subject/l/public/s4610502.jpg",
-				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s4610502.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
-			},
-			"honor_infos": [
-				{
-					"kind": "book",
-					"uri": "douban://douban.com/subject_collection/ECDA5LVHY?type=rank&category=book&rank_type=topn_book",
-					"rank": 1,
-					"title": "热门日系推理图书TOP10"
-				}
-			],
-			"other_versions_count": 17,
-			"is_show": false,
-			"vendor_icons": [],
-			"card_subtitle": "[日] 东野圭吾 / 2008 / 南海出版公司",
-			"book_subtitle": "",
-			"id": "3259440",
-			"author": [
-				"[日] 东野圭吾"
-			],
-			"is_released": true,
-			"vendor_original_price": "",
-			"color_scheme": {
-				"is_dark": true,
-				"primary_color_light": "a5a5a5",
-				"_base_color": [
-					0,
-					0,
-					0.20392156862745098
-				],
-				"secondary_color": "f9f4f4",
-				"_avg_color": [
-					0,
-					0,
-					0.6431372549019608
-				],
-				"primary_color_dark": "7f7f7f"
-			},
-			"type": "book",
-			"cover_url": "https://dou.img.lithub.cc/book/3259440.jpg",
-			"min_sale_price": null,
-			"press": [
-				"南海出版公司"
-			],
-			"pages": [
-				"467"
-			],
-			"sharing_url": "https://book.douban.com/subject/3259440/",
-			"url": "https://book.douban.com/subject/3259440/",
-			"title": "白夜行",
-			"uri": "douban://douban.com/book/3259440",
-			"subtype": "book",
-			"intro": "“只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、压抑、悲凉的故事片段像纪录片一样一一还原：没有痴痴相思，没有海枯石烂，只剩下一个冰冷绝望的诡计，最后一丝温情也被完全抛弃，万千读者在一曲救赎罪恶的凄苦爱情中悲切动容……",
-			"buy_more_uri": "",
-			"null_rating_reason": "",
-			"article_intros": [],
-			"vendor_sale_price": "",
-			"has_ebook": false
-		}
-	},
-	{
-		"comment": "看完有種瞬間成長的感覺，磨難造就成長",
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 5,
-			"value": 5
-		},
-		"sharing_text": "我的评分：★★★★★ 看完有種瞬間成長的感覺，磨難造就成長 https://book.douban.com/subject/1061118/ 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1061118/interest/1552731583",
-		"tags": [],
-		"charts": [],
-		"platforms": [],
-		"vote_count": 0,
-		"create_time": "2018-12-04 00:19:16",
-		"status": "done",
-		"id": 1552731583,
-		"is_private": false,
-		"subject": {
-			"rating": {
-				"count": 87735,
-				"max": 10,
-				"star_count": 4.5,
-				"value": 9.1
-			},
-			"controversy_reason": "",
-			"pubdate": [
-				"2004-5"
-			],
-			"pic": {
-				"large": "https://img2.doubanio.com/view/subject/l/public/s1469173.jpg",
-				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s1469173.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
-			},
-			"honor_infos": [],
-			"other_versions_count": 28,
-			"is_show": false,
-			"vendor_icons": [],
-			"card_subtitle": "余华 / 2004 / 上海文艺出版社",
-			"book_subtitle": "",
-			"id": "1061118",
-			"author": [
-				"余华"
-			],
-			"is_released": true,
-			"vendor_original_price": "",
-			"color_scheme": {
-				"is_dark": true,
-				"primary_color_light": "a53432",
-				"_base_color": [
-					0.0036231884057971175,
-					0.696969696969697,
-					0.7764705882352941
-				],
-				"secondary_color": "f9f5f4",
-				"_avg_color": [
-					0.0036231884057971175,
-					0.696969696969697,
-					0.7764705882352941
-				],
-				"primary_color_dark": "7f2826"
-			},
-			"type": "book",
-			"cover_url": "https://dou.img.lithub.cc/book/1061118.jpg",
-			"min_sale_price": null,
-			"press": [
-				"上海文艺出版社"
-			],
-			"pages": [
-				"194"
-			],
-			"sharing_url": "https://book.douban.com/subject/1061118/",
-			"url": "https://book.douban.com/subject/1061118/",
-			"title": "活着",
-			"uri": "douban://douban.com/book/1061118",
-			"subtype": "book",
-			"intro": "地主少爷富贵嗜赌成性，终于赌光了家业一贫如洗，穷困之中的富贵因为母亲生病前去求医，没想到半路上被国民党部队抓了壮丁，后被解放军所俘虏，回到家乡他才知道母亲已经去世，妻子家珍含辛茹苦带大了一双儿女，但女儿不幸变成了聋哑人，儿子机灵活泼……\n然而，真正的悲剧从此才开始渐次上演，每读一页，都让我们止不住泪湿双眼，因为生命里难得的温情将被一次次死亡撕扯得粉碎，只剩得老了的富贵伴随着一头老牛在阳光下回忆。",
-			"buy_more_uri": "",
-			"null_rating_reason": "",
-			"article_intros": [],
-			"vendor_sale_price": "",
-			"has_ebook": false
 		}
 	},
 	{
@@ -1640,7 +1628,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 31541,
+				"count": 31542,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -1663,7 +1651,9 @@
 			],
 			"other_versions_count": 39,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "[英] 阿加莎·克里斯蒂 / 2016 / 新星出版社",
 			"book_subtitle": "",
 			"id": "26840298",
@@ -1707,7 +1697,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -1730,7 +1720,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 139615,
+				"count": 139616,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -1757,7 +1747,8 @@
 				"https://img2.doubanio.com/f/frodo/6bd2847c065ab16da2b96d1660ea25c4ea017cb9/pics/vendors/logo_xmly.png",
 				"https://img2.doubanio.com/f/frodo/68f74e04bccf438edfef28e385a0430e25f482eb/pics/vendors/logo_toutiao.jpg",
 				"https://img2.doubanio.com/f/frodo/eeb8f37f5296ae1fbb944718bd5d6880d24aab5c/pics/vendors/migu_book_logo.png",
-				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[美] 伍绮诗 / 2015 / 江苏凤凰文艺出版社",
 			"book_subtitle": "",
