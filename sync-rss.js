@@ -397,7 +397,8 @@ async function fetchItem(link, category) {
     } else if (category === CATEGORY.book) {
         itemData[DB_PROPERTIES.TITLE] = dom.window.document.querySelector('#wrapper h1 [property="v:itemreviewed"]').textContent.trim();
         // itemData[DB_PROPERTIES.POSTER] = dom.window.document.querySelector('#mainpic img')?.src.replace(/\.webp$/, '.jpg').replace("/s/", "/l/");
-        itemData[DB_PROPERTIES.POSTER] = `https://dou.img.lithub.cc/${category}/${id}.jpg`;
+        // itemData[DB_PROPERTIES.POSTER] = `https://dou.img.lithub.cc/${category}/${id}.jpg`;
+        itemData[DB_PROPERTIES.POSTER] = `https://raw.githubusercontent.com/newness33/douban-backup/main/images/douban/${id}.jpg`;
         let info = [...dom.window.document.querySelectorAll('#info span.pl')];
         if (dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent && dom.window.document.querySelectorAll('div[class="related_info"] h2')[0].textContent.trim().startsWith("内容简介")) {
 
