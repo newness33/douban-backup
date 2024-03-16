@@ -178,7 +178,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 13597,
+				"count": 13596,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -263,7 +263,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 791758,
+				"count": 791765,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -357,7 +357,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 752000,
+				"count": 752008,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -807,7 +807,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 148591,
+				"count": 148593,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -900,7 +900,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 825325,
+				"count": 825339,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1087,7 +1087,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 281747,
+				"count": 281750,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1110,7 +1110,9 @@
 			],
 			"other_versions_count": 129,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+			],
 			"card_subtitle": "[英] 乔治·奥威尔 / 2010 / 北京十月文艺出版社",
 			"book_subtitle": "",
 			"id": "4820710",
@@ -1154,7 +1156,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
@@ -1264,7 +1266,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 30313,
+				"count": 30314,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -1354,7 +1356,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 145175,
+				"count": 145180,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
