@@ -7,7 +7,7 @@
 			"star_count": 5,
 			"value": 5
 		},
-		"sharing_text": "我的评分：★★★★★ https://www.douban.com/game/26411799/ 来自@豆瓣App",
+		"sharing_text": "我的评分：★★★★★ /game/26411799/ 来自@豆瓣App",
 		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26411799/interest/3811373536",
 		"tags": [],
 		"charts": [],
@@ -26,7 +26,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 21726,
+				"count": 21728,
 				"max": 10,
 				"star_count": 5,
 				"value": 9.5
@@ -36,7 +36,7 @@
 			],
 			"controversy_reason": "",
 			"title": "艾迪芬奇的记忆 What Remains of Edith Finch",
-			"url": "https://www.douban.com/game/26411799/",
+			"url": "/game/26411799/",
 			"release_date": "2017-04-25",
 			"pic": {
 				"large": "https://qnmob3.doubanio.com/lpic/s29435861.jpg?imageView2/2/q/80/w/600/h/3000/format/jpg",
@@ -125,7 +125,7 @@
 			"type": "game",
 			"id": "26411799",
 			"null_rating_reason": "",
-			"sharing_url": "https://www.douban.com/game/26411799/"
+			"sharing_url": "/game/26411799/"
 		}
 	}
 ]
