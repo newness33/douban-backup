@@ -1,1 +1,131 @@
-[]
+[
+	{
+		"comment": "",
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 5,
+			"value": 5
+		},
+		"sharing_text": "我的评分：★★★★★ https://www.douban.com/game/26411799/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26411799/interest/3811373536",
+		"tags": [],
+		"charts": [],
+		"platforms": [
+			{
+				"abbreviation": "NS",
+				"cn_name": "Nintendo Switch",
+				"id": 158,
+				"name": "Nintendo Switch"
+			}
+		],
+		"vote_count": 0,
+		"create_time": "2023-06-06 02:36:24",
+		"status": "done",
+		"id": 3811373536,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 22277,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"genres": [
+				"冒险"
+			],
+			"controversy_reason": "",
+			"title": "艾迪芬奇的记忆 What Remains of Edith Finch",
+			"url": "https://www.douban.com/game/26411799/",
+			"release_date": "2017-04-25",
+			"pic": {
+				"large": "https://qnmob3.doubanio.com/lpic/s29435861.jpg?imageView2/2/q/80/w/600/h/3000/format/jpg",
+				"normal": "https://qnmob3.doubanio.com/lpic/s29435861.jpg?imageView2/2/q/80/w/200/h/300/format/jpg"
+			},
+			"uri": "douban://douban.com/game/26411799",
+			"cover_url": "https://dou.img.lithub.cc/game/26411799.jpg",
+			"is_released": true,
+			"card_subtitle": "艾迪芬奇的秘密/伊迪丝·芬奇的记忆/伊迪芬奇的回忆豪宅/Edith Finch/冒险/PC/iPhone/iPad/Android/PlayStation 4/Xbox One/Nintendo Switch/PlayStation 5/Xbox Series X/Giant Sparrow/2017-04-25",
+			"is_show": false,
+			"article_intros": [],
+			"subtype": "game",
+			"cn_name": "艾迪芬奇的记忆",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "a5a09a",
+				"_base_color": [
+					0.08333333333333333,
+					0.06584362139917696,
+					0.9529411764705882
+				],
+				"secondary_color": "f9f7f4",
+				"_avg_color": [
+					0.08333333333333333,
+					0.07339449541284404,
+					0.8549019607843137
+				],
+				"primary_color_dark": "7f7b77"
+			},
+			"platforms": [
+				{
+					"abbreviation": "PC",
+					"cn_name": "PC",
+					"id": 94,
+					"name": "PC"
+				},
+				{
+					"abbreviation": "IPHN",
+					"cn_name": "iPhone",
+					"id": 96,
+					"name": "iPhone"
+				},
+				{
+					"abbreviation": "IPAD",
+					"cn_name": "iPad",
+					"id": 121,
+					"name": "iPad"
+				},
+				{
+					"abbreviation": "ANDR",
+					"cn_name": "Android",
+					"id": 123,
+					"name": "Android"
+				},
+				{
+					"abbreviation": "PS4",
+					"cn_name": "PS4",
+					"id": 146,
+					"name": "PS4"
+				},
+				{
+					"abbreviation": "XONE",
+					"cn_name": "Xbox One",
+					"id": 145,
+					"name": "Xbox One"
+				},
+				{
+					"abbreviation": "NS",
+					"cn_name": "Nintendo Switch",
+					"id": 158,
+					"name": "Nintendo Switch"
+				},
+				{
+					"abbreviation": "PS5",
+					"cn_name": "PS5",
+					"id": 167,
+					"name": "PS5"
+				},
+				{
+					"abbreviation": "XSX",
+					"cn_name": "XSX",
+					"id": 168,
+					"name": "XSX"
+				}
+			],
+			"type": "game",
+			"id": "26411799",
+			"null_rating_reason": "",
+			"sharing_url": "https://www.douban.com/game/26411799/"
+		}
+	}
+]
