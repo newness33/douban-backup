@@ -19,7 +19,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 18199,
+				"count": 18201,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.3
@@ -179,7 +179,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 14944,
+				"count": 14945,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -193,7 +193,7 @@
 				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s29775868.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
 			},
 			"honor_infos": [],
-			"other_versions_count": 6,
+			"other_versions_count": 7,
 			"is_show": false,
 			"vendor_icons": [
 				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png"
@@ -264,7 +264,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 809104,
+				"count": 809120,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.9
@@ -279,7 +279,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 55,
 					"title": "豆瓣图书Top250"
@@ -289,7 +289,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[美] 卡勒德·胡赛尼 / 2006 / 上海人民出版社",
 			"book_subtitle": "",
@@ -357,7 +358,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 774987,
+				"count": 775000,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -372,7 +373,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 13,
 					"title": "豆瓣图书Top250"
@@ -466,7 +467,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/2017_book_589?type=rank&category=book&rank_type=year",
 					"rank": 8,
 					"title": "2017年度悬疑·推理"
@@ -631,7 +632,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 57419,
+				"count": 57422,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -646,7 +647,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/2018_book_899?type=rank&category=book&rank_type=year",
 					"rank": 6,
 					"title": "2018年度温暖·治愈"
@@ -808,7 +809,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 157666,
+				"count": 157668,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -823,7 +824,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 58,
 					"title": "豆瓣图书Top250"
@@ -901,7 +902,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 870487,
+				"count": 870534,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -916,7 +917,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 2,
 					"title": "豆瓣图书Top250"
@@ -995,7 +996,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 25355,
+				"count": 25356,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -1010,7 +1011,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/2016_book_274?type=rank&category=book&rank_type=year",
 					"rank": 7,
 					"title": "2016年度最受关注图书"
@@ -1088,7 +1089,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 297047,
+				"count": 297061,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -1103,7 +1104,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 4,
 					"title": "豆瓣图书Top250"
@@ -1267,7 +1268,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 32279,
+				"count": 32281,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -1282,7 +1283,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 139,
 					"title": "豆瓣图书Top250"
@@ -1357,7 +1358,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 154162,
+				"count": 154168,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.2
@@ -1372,7 +1373,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/book_top250",
 					"rank": 20,
 					"title": "豆瓣图书Top250"
@@ -1381,7 +1382,8 @@
 			"other_versions_count": 39,
 			"is_show": false,
 			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"card_subtitle": "[美] 哈珀·李 / 2012 / 译林出版社",
 			"book_subtitle": "",
@@ -1464,7 +1466,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/ECPIKVLHA?type=rank&category=book&rank_type=topn_book",
 					"rank": 1,
 					"title": "豆瓣热门推理图书TOP10"
@@ -1626,7 +1628,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 32992,
+				"count": 32993,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -1641,7 +1643,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/2016_book_273?type=rank&category=book&rank_type=year",
 					"rank": 3,
 					"title": "2016年度高分图书"
@@ -1718,7 +1720,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 144233,
+				"count": 144236,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -1733,7 +1735,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/2015_book_64?type=rank&category=book&rank_type=year",
 					"rank": 2,
 					"title": "2015年度最受关注图书"
