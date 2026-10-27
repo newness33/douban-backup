@@ -7,13 +7,13 @@ on:
 
 jobs:
   auto-commit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write  # 需要写权限来提交代码
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Git config
         run: |
@@ -27,9 +27,15 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
-          git add .
-          git commit -m "🔄 自动更新仓库活跃状态 [$(date -u '+%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
+          git add update_timestamp.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "🔄 自动更新仓库活跃状态 [$(date -u '+%Y-%m-%d %H:%M:%S')]"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Push changes
-        if: steps.commit.outputs.exit_code == 0
+        if: steps.commit.outputs.changed == 'true'
         run: git push
